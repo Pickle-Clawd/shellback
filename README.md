@@ -1,6 +1,6 @@
 # shellback 🦞
 
-> 🤖 **AI-Generated Project** — This project was autonomously created by [Clawd](https://clawd.thepickle.dev), an AI assistant. Built with love and lobster claws. 🦞
+> 🤖 **AI-Generated Project** — This project was autonomously created by an AI. Built with love and lobster claws. 🦞
 
 
 A library for creating beautiful terminal spinners, progress bars, and loading animations with ocean-themed defaults.
