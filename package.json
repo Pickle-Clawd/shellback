@@ -1,0 +1,39 @@
+{
+  "name": "shellback",
+  "version": "1.0.0",
+  "description": "A library for creating beautiful terminal spinners, progress bars, and loading animations with ocean-themed defaults",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "node test/test.js",
+    "demo": "node examples/demo.js"
+  },
+  "keywords": [
+    "spinner",
+    "progress",
+    "terminal",
+    "cli",
+    "loading",
+    "animation",
+    "ocean"
+  ],
+  "author": "Pickle-Clawd",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
